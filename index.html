@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLIBEE - Polinização Inteligente para o Futuro</title>
+    <!-- Favicon (Opcional, mas recomendado para um toque profissional) -->
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Slick Carousel CSS (Seus arquivos existentes) -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!-- Font Awesome CSS (para ícone de hambúrguer, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Seu CSS Principal -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho (Navegação) -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo Polibee: Uma abelha estilizada em voo com asas de folha e uma gota de mel.">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="quem-somos.html" class="nav-link">Quem Somos</a></li> <!-- Adicionado link Quem Somos -->
+                <li><a href="nossas-agentes.html" class="nav-link">Nossas Agentes</a></li>
+                <li><a href="nosso-app.html" class="nav-link">Nosso App</a></li>
+                <li><a href="beneficios.html" class="nav-link">Benefícios</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Botão Hambúrguer para Mobile -->
+        <button class="hamburger-menu" aria-label="Abrir menu de navegação">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- NOVO: Mobile Menu Overlay (Certifique-se de que esta seção está em TODAS as suas páginas HTML) -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" aria-label="Fechar Menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+                <li><a href="nossas-agentes.html" class="nav-link">Nossas Agentes</a></li>
+                <li><a href="nosso-app.html" class="nav-link">Nosso App</a></li>
+                <li><a href="beneficios.html" class="nav-link">Benefícios</a></li>
+                <li><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- FIM NOVO: Mobile Menu Overlay -->
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Hero (Destaque Principal) - Fundo de imagem de apicultor, texto em caixa transparente -->
+        <section class="hero-section">
+            <div class="hero-text-container"> <!-- NOVO: Contêiner para o texto com fundo transparente -->
+                <div class="hero-content container">
+                    <h1>Polibee: A Conexão Perfeita entre Flores e Frutos</h1>
+                    <p>Descubra o poder da polinização assistida e ajude a construir um futuro mais verde e abundante. Nossas abelhas nativas são as heroínas do campo, prontas para florir seus resultados!</p>
+                    <a href="nossas-agentes.html" class="btn primary-btn pulse-effect">Conheça Nossas Agentes</a>
+                </div>
+            </div>
+            <!-- Abelhas voando para dinamismo -->
+            <img src="img/abelinha.png" alt="Abelha voando" class="flying-bee bee-1">
+            <img src="img/abelinha.png" alt="Abelha voando" class="flying-bee bee-2">
+        </section>
+
+        <!-- Seção Breve "Quem Somos" -->
+        <section class="about-brief-section">
+            <div class="container">
+                <h2 class="section-title">Quem Somos?</h2>
+                <div class="about-brief-content">
+                    <div class="text-content">
+                        <p>A Polibee surgiu para resolver o caos no campo causado pelos agrotóxicos. Visto que uma grande parte dos alimentos em nossas mesas ainda contêm resíduos, nossa missão é clara: conectar a natureza à agricultura, promovendo um ciclo de vida saudável e sustentável.</p>
+                        <p>Somos um aplicativo inovador que faz a ponte entre apicultores engajados e agricultores conscientes. Através de nossas pequenas, mas poderosas, agentes, as abelhas nativas, iremos dar cor e vida para o futuro da alimentação e do planeta!</p>
+                        <a href="quem-somos.html" class="btn secondary-btn">Saiba Mais Sobre Nós</a>
+                    </div>
+                    <div class="image-content">
+                        <img src="img/casinha.png" alt="Colmeia vertical estilizada, com abelhas voando ao redor." class="animated-colmeia">
+                        <!-- Mais abelhas voando -->
+                        <img src="img/abelinha.png" alt="Abelha voando" class="flying-bee bee-3">
+                        <img src="img/abelinha.png" alt="Abelha voando" class="flying-bee bee-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Seção Breve "Benefícios" -->
+        <section class="benefits-brief-section">
+            <div class="container">
+                <h2 class="section-title">Benefícios da Polinização Nativa</h2>
+                <div class="benefits-grid"> <!-- MODIFICADO: Grid agora é flex para centralizar a última linha -->
+                    <div class="benefit-item">
+                        <img src="img/icon-produtividade.png" alt="Ícone de um gráfico de crescimento, representando produtividade.">
+                        <h3>Mais Produtividade</h3>
+                        <p>Aumento significativo na produção agrícola e na qualidade dos alimentos.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="img/icon-qualidade.png" alt="Ícone de uma folha brotando em uma mão, representando qualidade.">
+                        <h3>Melhor Qualidade</h3>
+                        <p>Frutos e sementes mais vigorosos, nutritivos e de maior valor de mercado.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="img/icon-biodiversidade.png" alt="Ícone de duas folhas de tamanhos diferentes, representando biodiversidade.">
+                        <h3>Biodiversidade</h3>
+                        <p>Preservação e incentivo à vida silvestre local e à variedade de espécies.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="img/icon-sustentabilidade.png" alt="Ícone de uma planta com raiz, representando sustentabilidade.">
+                        <h3>Práticas Sustentáveis</h3>
+                        <p>Agricultura que respeita o meio ambiente, reduzindo o uso de agrotóxicos.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="img/icon-equilibrio.png" alt="Ícone de uma balança em equilíbrio, representando equilíbrio ecológico.">
+                        <h3>Equilíbrio Ecológico</h3>
+                        <p>Reestabelecimento da harmonia natural dos ecossistemas e saúde do solo.</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="beneficios.html" class="btn primary-btn">Descubra Todos os Impactos</a>
+            </div>
+        </section>
+
+        <!-- Seção de Chamada para Ação Final -->
+        <section class="call-to-action">
+            <div class="container">
+                <p>Junte-se a nós nesta missão de impactar o futuro. Transforme sua colheita e contribua para um mundo mais verde e saudável!</p>
+                <a href="contato.html" class="btn secondary-btn">Fale Conosco e Comece!</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-logo">
+                <img src="img/poli.png" alt="Logo Polibee">
+                <p>&copy; 2025 Polibee. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Navegação Rápida</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nossas-agentes.html">Nossas Agentes</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="beneficios.html">Benefícios</a></li>
+                    <li><a href="nosso-app.html">Nosso App</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Entre em Contato</h3>
+                <p><i class="fas fa-envelope footer-icon"></i> Email:  <b> polibee.app@gmail.com</b></p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/polibee.oficial?igsh=MTZ4NmRnenVicWw1YQ=="  aria-label="Instagram da Polibee"><img src="img/icon-instagram.png" alt="Ícone do Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (Necessário para Slick Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Carousel JS (Seus arquivos existentes) -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Seu JavaScript Personalizado -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
